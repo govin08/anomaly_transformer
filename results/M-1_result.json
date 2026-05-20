@@ -1,0 +1,36 @@
+{
+  "channel": "M-1",
+  "n_feat": 55,
+  "n_params": 607843,
+  "metrics": {
+    "threshold": 0.001126113658261602,
+    "precision": 0.5,
+    "recall": 0.1998,
+    "f1": 0.2855,
+    "tp": 228,
+    "fp": 228,
+    "fn": 913,
+    "anomaly_ratio": 0.5010979358805446,
+    "pct": 80.0
+  },
+  "args": {
+    "data_dir": "data",
+    "dataset": "SMAP",
+    "channel": "M-1",
+    "win_len": 100,
+    "step": 1,
+    "d_model": 128,
+    "n_heads": 8,
+    "n_layers": 3,
+    "d_ff": null,
+    "dropout": 0.1,
+    "epochs": 30,
+    "batch_size": 64,
+    "lr": 0.0001,
+    "lam": 3.0,
+    "threshold_pct": null,
+    "save_dir": "results",
+    "no_plot": false,
+    "device": null
+  }
+}
